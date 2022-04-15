@@ -1,0 +1,49 @@
+.datepicker-restyle{
+    padding: 10px 0;
+}
+.datepicker-restyle label{
+    font-weight: normal;
+    font-size: 14px;
+}
+.row-active{
+    background: #eee !important;
+}
+
+table td .btn-default, table td .btn-default:hover{
+    border: none !important;
+    font-weight: bold;
+    background: inherit !important;
+    border-radius: 2px;
+}
+.row-active td{
+    font-weight: bold;
+}
+.table-no-bordered td, .table-no-bordered th{
+    padding: 10px 5px !important;
+    border: none !important;
+    border-bottom: 1px solid #eee !important;
+}
+.table-no-bordered th{
+    width: 40% !important;
+}
+div .logo-area, div .logo-area h3{
+    color: #fff !important;
+    padding-top: 10px;
+}
+@media (max-width: 1000px){
+    .hide-on-mobile{
+        display: none !important;
+    }
+}
+.table-bordered, .table-bordered th, .table-bordered td{
+    border: none !important;
+}
+.table-bordered th{
+    border-bottom: 1px solid #eee;
+}
+.table-bordered th{
+    text-align: right;
+}
+.colored{
+    background: #eee !important;
+}

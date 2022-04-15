@@ -1,0 +1,11 @@
+- auto generate kode_diklat (ex: id = 1 ----> DIKLAT1)------------------------------------------------------------------(no)
+- fix data table each page------------------------------------------------------------------(ok)
+- pisahkeun breadcrumb (cek page sekarang == dashboard/home, jika bukan disable breadcrumb)
+	@if(route::curentRoute() == 'dashboard')
+		//bread
+	@endif------------------------------------------------------------------(ok)
+- add dialog confirmation------------------------------------------------------------------(ok)
+- add header mobile------------------------------------------------------------------(ok)
+- setting not found page------------------------------------------------------------------(ok)
+- fix small issues------------------------------------------------------------------(ok)
+- buat style.css di public------------------------------------------------------------------(ok)
